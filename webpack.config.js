@@ -1,8 +1,1 @@
-entry: {
-  app: 'src/app.ts',
-  vendor: 'src/vendor.ts'
-},
-
-output: {
-  filename: '[name].js'
-}
+module.exports = require('./config/webpack.dev.js');
